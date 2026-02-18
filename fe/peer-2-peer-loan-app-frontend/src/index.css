@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* index.css */
+:root {
+  --primary: #6366f1;       /* Vibrant indigo */
+  --primary-light: #a5b4fc;
+  --secondary: #10b981;     /* Success green */
+  --accent: #f59e0b;        /* Warm amber */
+  --danger: #ef4444;        /* Friendly red */
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+}
+
+/* index.css */
+
+/* Background colors */
+.bg-primary        { background-color: var(--primary); }
+.bg-primary-light  { background-color: var(--primary-light); }
+.bg-secondary      { background-color: var(--secondary); }
+.bg-accent         { background-color: var(--accent); }
+.bg-danger         { background-color: var(--danger); }
+
+/* Text colors */
+.text-primary        { color: var(--primary); }
+.text-primary-light  { color: var(--primary-light); }
+.text-secondary      { color: var(--secondary); }
+.text-accent         { color: var(--accent); }
+.text-danger         { color: var(--danger); }
+
+/* Border colors */
+.border-primary        { border-color: var(--primary); }
+.border-primary-light  { border-color: var(--primary-light); }
+.border-secondary      { border-color: var(--secondary); }
+.border-accent         { border-color: var(--accent); }
+.border-danger         { border-color: var(--danger); }
+html {
+  scroll-behavior: smooth;
+}
